@@ -5,6 +5,10 @@ html{
     justify-content: center;
     padding-top: 40px;
 }
+#paw{
+    width: 20px;
+    position: absolute;
+}
 *{
     padding: 0;
     margin: 0;
@@ -54,7 +58,7 @@ a{
     
 }
 .bloco{
-    padding-top: 20px;
+    padding-top: 25px;
     background-color: rgb(80, 172, 161);
     width: 300px;
     height: 450px;
