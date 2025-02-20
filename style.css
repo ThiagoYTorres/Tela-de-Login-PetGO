@@ -1,0 +1,117 @@
+html{
+    text-align: center;
+    font-family: Montserrat;
+    display: grid;
+    justify-content: center;
+    padding-top: 40px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    width: 65%;
+    margin-right: 25px;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+h1{
+    padding: 0px 0px 10px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.ema{
+    padding-left: 5px;  
+    width: 180px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    border-style: none;
+ 
+}
+.sen{
+    padding-left: 5px;
+    width: 180px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    border-style: none;
+}
+
+a{
+    color: aliceblue;
+    font-size: 11px;
+    text-align: start;
+    margin-right: 50px;
+    padding-top: 3px;
+}
+
+.inp1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    gap: 3px;
+    
+    
+}
+.bloco{
+    padding-top: 20px;
+    background-color: rgb(80, 172, 161);
+    width: 300px;
+    height: 450px;
+    border-radius: 4px;
+    
+}
+
+svg{
+    fill: aliceblue;     
+    transition: transform 0.3s ease-in-out; 
+    background-color: rgb(235, 115, 3);
+    padding: 2px;
+    border-left: 10px;
+    border-radius: 5px;    
+}
+button{
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 4px 20px;
+    border-radius: 6px;
+    background-color: rgb(235, 115, 3);
+    border-color: rgb(235, 115, 3);
+    color: aliceblue; 
+    
+}
+#ou{
+    padding: 10px;
+    font-size: 10px;
+    color: aliceblue;
+}
+
+#op_login{
+    color: aliceblue;
+    text-shadow: 1px 1px rgb(12, 61, 65);
+    font-size: 9px;
+    margin:0;
+}
+/* TOP RIGHT BOTTOM LEFT */
+div > h2 {
+    padding: 5px 0px 0px 0px;
+    margin: 0px;
+}
+#logins{
+    width: 40%;
+    padding: 15px 0px 0px 20px;
+    margin-right: 25px;
+}
+#cadastro{
+    color: rgba(54, 225, 255, 1);
+}
+
+#sucesso{
+    margin-top: 10px;
+    background-color: rgba(11, 189, 26, 0.678);
+    padding: 10px 50px;
+    color: azure;
+    font-size: 13px;
+    border-radius: 6px;
+}
